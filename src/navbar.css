@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  padding: 20px 30px;
+}
+.navbar h2 {
+  color: aqua;
+}
+.nav-list {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-list a {
+  list-style-type: none;
+  color: aqua;
+  text-decoration: none;
+}
+.nav-list a:hover {
+  color: red;
+}
